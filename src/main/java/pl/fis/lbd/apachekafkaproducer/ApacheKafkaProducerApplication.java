@@ -1,13 +1,13 @@
-package pl.fis.lbd.apachekafka;
+package pl.fis.lbd.apachekafkaproducer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApacheKafkaApplication {
+public class ApacheKafkaProducerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApacheKafkaApplication.class, args);
+		SpringApplication.run(ApacheKafkaProducerApplication.class, args);
 	}
 
 }

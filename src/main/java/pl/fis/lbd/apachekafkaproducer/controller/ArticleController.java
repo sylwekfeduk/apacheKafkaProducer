@@ -1,4 +1,4 @@
-package pl.fis.lbd.apachekafka.controller;
+package pl.fis.lbd.apachekafkaproducer.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pl.fis.lbd.apachekafka.config.KafkaTopicConfig;
+import pl.fis.lbd.apachekafkaproducer.config.KafkaTopicConfig;
 
 @RestController
 @RequestMapping(value = "/api/article")
